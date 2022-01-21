@@ -30,7 +30,7 @@ class DatabaseSeeder extends Seeder
             'visi' => 'Terwujudnya kepuasan dan kepercayaan pelanggan dengan produk berkualitas.',
             'misi' => 'Membangun kerjasama tim dengan baik.Memberikan layanan jasa terbaik dengan memanfaat platform , aplikasi yang ada dengan sebaik mungkin.Menyediakan layanan konsultasi implementasi produk.',
             'alamat' => 'Kota Malang, Jawa Timur, Indonesia',
-            'email' => 'rasiional1@gmail.com',
+            'email' => 'info@rasional.my.id',
             'telp' => '085607799274',
             'instagram' => 'rasional.id',
         ]);
