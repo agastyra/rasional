@@ -16,9 +16,13 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php')) {
+if (file_exists($maintenance = __DIR__ . '/../storage/framework/maintenance.php')) {
     require $maintenance;
 }
+
+// if (file_exists($maintenance = __DIR__.'/../laravel/storage/framework/maintenance.php')) {
+//     require $maintenance;
+// }
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +35,8 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 |
 */
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
+// require __DIR__.'/../laravel/vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +49,13 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
+$app = require_once __DIR__ . '/../bootstrap/app.php';
+// $app = require_once __DIR__.'/../laravel/bootstrap/app.php';
+
+// set the public path to this directory
+// $app->bind('path.public', function () {
+//     return __DIR__;
+// });
 
 $kernel = $app->make(Kernel::class);
 
