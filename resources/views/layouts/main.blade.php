@@ -22,6 +22,8 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>

@@ -80,14 +80,16 @@
 
                             <input type="radio" class="btn-check" name="layanan" id="desain-logo" value="Desain Logo"
                                 checked>
-                            <label class="btn btn-outline-secondary py-2 px-5" for="desain-logo">Desain Logo</label>
+                            <label class="btn btn-outline-secondary py-2 px-3 my-2" for="desain-logo">Desain Logo</label>
 
                             <input type="radio" class="btn-check" name="layanan" id="desain-kaos" value="Desain Kaos">
-                            <label class="btn btn-outline-secondary py-2 px-5 mx-2" for="desain-kaos">Desain Kaos</label>
+                            <label class="btn btn-outline-secondary py-2 px-3 mx-2 my-2" for="desain-kaos">Desain
+                                Kaos</label>
 
                             <input type="radio" class="btn-check" name="layanan" id="desain-produk"
                                 value="Desain Produk">
-                            <label class="btn btn-outline-secondary py-2 px-5" for="desain-produk">Desain Produk</label>
+                            <label class="btn btn-outline-secondary py-2 px-3 my-2" for="desain-produk">Desain
+                                Produk</label>
                         </div>
                     </div>
 

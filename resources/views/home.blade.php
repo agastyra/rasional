@@ -8,7 +8,7 @@
             <div class="container m-auto">
                 <h1 class="rasional">{{ $rasional[0]->nama }}</h1>
                 <p class="lead text-white-50 w-50">{{ $rasional[0]->deskripsi }} </p>
-                <button type="button" class="btn btn-dark btn-lg py-2 px-5">Jelajahi</button>
+                <a href="/kontak" class="btn btn-dark btn-lg py-2 px-5">Jelajahi</a>
             </div>
         </div>
 
